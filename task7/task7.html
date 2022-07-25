@@ -1,27 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>FaceBook Dashbaord</title>
+  <title>dumil</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./Task7.css">
+   <link rel="stylesheet" href="task.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 550px}   
-     /* Set gray background color and 100% height */
-    .sidenav {
-      background-color: #08c089;
-      height: 100%;
-    }  
-      /* On small screens, set height to 'auto' for the grid */
-    @media screen and (max-width: 767px) {
-      .row.content {height: auto;}
-    }
-  </style>
-</head>
 <body><nav class="navbar navbar-inverse visible-xs">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -30,61 +16,117 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="">Dashboard</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">
-          <img src="https://www.carandbike.com/ktm-bikes/rc-390">
-        </a></li>
-        <li><a href="#"></a>Dashboard</li>
-        <li><a href="#"></a>Highlights</li>
-        <li><a href="#"></a>Friends</li>
-      </ul>
+      <a class="navbar-brand" href="">apsmani</a>
     </div>
   </div>
-</nav><div class="container-fluid">
+   </nav>
+<div class="container-fluid">
   <div class="row content">
-    <div class="col-sm-3 sidenav hidden-xs">
-      <h2 class="kdb">DASHBOARD</h2>
+    <div class="col-sm-2 sidenav hidden-xs">
+        <h2> blue box</h2>
+      <h5><img
+ src="1658465152140_720.jpg" alt="Logo"style="width:40px;"
+class="rounded-pill"> apsmani</h5>
       <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#section1"></a></li>
-        <li><a href="#section2"></a>SOLAIMANI</li>
-        <li><a href="#section3"></a>CP DEVA</li>
-        <li><a href="#section3"></a>NAGUL SUNDHAR</li>
+        <li class="active"><a href="#section1">dashboard</a></li>
+        <li><a href="#section2">UI elements</a></li>
+        <li><a href="#section3">comonents</a></li>
+        <li><a href="#section3">forms stuff</a></li>
+        <li><a href="#section3">datatables</a></li>
+        <li><a href="#section3">icones</a></li>
+        <li><a href="#section3">sample table </a></li>
+        <li><a href="#section3">extra</a></li>
       </ul><br>
-    </div>
-    <br>    <div class="col-sm-9">
-      <div class="well">
-        <h4>APS MANI</h4>
-        <p>APS MANI</p>
+      <div>
+        <button type="button" class="btn-primary">add project</button>
       </div>
+    </div>
+    <div class="col-sm-10">
+      <div class="well" id="dheen1">
+        <form class="search">
+            <input type="text" placeholder="search" class="search__input">
+            <i class="ri-search-2-line"></i>
+        </form>
+             </div>
+             <p> dashboard</p>
       <div class="row">
         <div class="col-sm-3">
-          <div class="well">
-            <h4>NFX VISHWAS</h4>
-            <p>NFX VISHWAS</p>
+          <div class="well" id="dheen2">
+            <h4></h4>
+            <p>stock total<br>
+             $150000<br></p>
+             <p>increased by 60%</p>
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="well">
-            <h4>CP DEVA</h4>
-            <p>CP DEVA</p>
+          <div class=" well" id="dheen3">
+            <h4></h4>
+            <p>total profits<br>
+             $25000<br></p>
+             <p>increased by 30%</p>
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="well">
-            <h4>NAGUL</h4>
-            <p>NAGUL</p>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="well">
-            <h4>FASITH </h4>
-            <p>FASITH</p>
+          <div class="well " id="dheen4">
+            <h4></h4>
+            <p>unique visitories<br>
+            250000<br></p>
+            <p>increased by 80%</p>
           </div>
         </div>
     </div>
-  </div>
-</div></body>
+      <div class="container mt-5">
+        <h2>standard table design</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>name</th>
+              <th>email</th>
+              <th>usertype</th>
+              <th>joined</th>
+              <th>status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>solaimania</td>
+              <td>\solaimania@gmail.com</td>
+              <td>admin</td>
+              <td>20.04.2022</td>
+              <td><button type="button" class="btn-warning">select</button></td>
+            </tr>
+            <tr>
+              <td>karthi</td>
+              <td>karthi@gmail.com</td>
+              <td>admin</td>
+              <td>18.2.2022</td>
+              <td><button type="button" class="btn-success">approved</button></td>
+            </tr>
+            <tr>
+              <td>solaimaniai</td>
+              <td>solaimani@gmail.com</td>
+              <td>admin</td>
+              <td>5.09.2022</td>
+              <td><button type="button" class="btn-primary">pending</button></td>
+            </tr>
+            <tr>
+                <td>sanjay</td>
+                <td>sanjay@gmail.com</td>
+                <td>editor</td>
+                <td>19.5.2022</td>
+                <td><button type="button" class="btn-success">approved</button></td>
+              </tr>
+              <tr>
+                <td>cpdeva</td>
+                <td>cpdeva@gmail.com</td>
+                <td>editor</td>
+                <td>11.7.2022</td>
+                <td><button type="button" class="btn-primary">pending</button></td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+ </div>
+</div>
+   </body>
 </html>
